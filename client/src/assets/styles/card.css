@@ -1,0 +1,24 @@
+.card{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    gap: 30px;
+    
+    .notePara{
+        margin: 0px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .options{
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.options *{
+    cursor: pointer;
+}

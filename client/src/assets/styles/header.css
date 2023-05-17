@@ -1,0 +1,52 @@
+.headTop{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    
+    
+
+    .headLeft{
+        width: 50vw;
+        height: 100%;
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        
+        .logo{
+            width: 100px;
+            height: 100%;
+
+            #logo{
+                max-width: 70%;
+                max-height: 100%;
+            }
+           
+        }
+
+        .headMenu{
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+    }
+
+}
+
+        .loginButton{
+            border: 2px solid #000;
+            border-radius: 5px;
+            padding: 5px 15px;
+            margin-right: 20px;
+        }
+    
+}
+a{
+    color: #000;
+    text-decoration: none;
+}

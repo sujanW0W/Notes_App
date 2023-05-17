@@ -1,0 +1,44 @@
+.loginSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+
+    #loginLogo{
+        border: 2px solid black;
+        border-radius: 50%;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.registerIfNot{
+    margin: 0px;
+    font-size: 22px;
+}
+
+.registerIfNot span a{
+    font-size: 22px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.registerIfNot span a:hover{
+    color: #1976d2;
+
+}
