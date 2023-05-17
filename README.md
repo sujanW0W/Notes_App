@@ -15,9 +15,9 @@ Also, create an empty database.
     3. DB_HOST=[Hostname of the DB]
     4. DB_PASSWORD=[Password to your DB]
     5. JWT_SECRET=[Secret encryption key]
-    6. JWT_LIFETIME=[timespan of the validity of the token]
+    6. JWT_LIFETIME=[timespan of validity of the token]
 
-After these steps, 'npm start' on both the directories.
+After all these steps, 'npm start' on both the directories.
 
 You must log in into the application before creating notes. You can register.
 
