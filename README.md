@@ -1,5 +1,7 @@
 # Notes App
 
+**This is my task for Virtuosway.**
+
 A simple note application for storing all your notes.
 This application is built using **React** for UI, **Node js, Express js & MySQL** for server-side.
 
@@ -23,5 +25,3 @@ You must log in into the application before creating notes. You can register.
 
 Thank You!
 Have a wonderful day!
-
-**This is my task for Virtuosway.**
